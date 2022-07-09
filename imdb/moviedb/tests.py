@@ -1,6 +1,7 @@
 from django.test import TestCase
 from .models import *
 import redgreenunittest as unittest
+from .models import Actor, Movie, Role
 
 class AssociationTestCase(TestCase):
     def setUp(self):
